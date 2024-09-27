@@ -1,14 +1,16 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
+title: "Avoiding jailbreaks by discouraging their representation in activation space"
+date: 2024-09-27T15:34:30-04:00
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - Activation Engineering 
+  - Interpretability
+  - Jailbreaks
+  - Large Language Model (LLM)
+  - Artificial Intelligence (AI)
 ---
 
-# Avoiding jailbreaks by discouraging their representation in activation space
 
 *This project was completed as part of the [AI Safety Fundamentals: Alignment Course](https://aisafetyfundamentals.com/alignment/) by BlueDot Impact. All the code, data and results are available in [this repository](https://github.com/GuidoBergman/jailbreak_direction).*
 
