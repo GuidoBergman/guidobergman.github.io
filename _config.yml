@@ -13,14 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Guido Bergman Blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Hi, welcome to my blog. My name is Guido Bergman. I graduated as an Information Systems Engineer at UBA. Currently, I work as SSr Full-Stack developer.
+github_username: GuidoBergman
 minimal_mistakes_skin: default
 search: true
 
@@ -58,9 +55,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Guido Ernesto Bergman"
+  name   : "Guido Bergman"
   avatar : "/assets/images/Foto.jpeg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+#  bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -105,3 +102,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+toc: true
