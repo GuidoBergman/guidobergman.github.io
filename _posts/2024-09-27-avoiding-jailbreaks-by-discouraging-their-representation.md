@@ -28,7 +28,8 @@ The relevance of this project lies in the fact that mitigating jailbreaks by dir
 
 In order to test this, the project attempts to find and prevent the model from using the direction in activation space that represents jailbreaks. This direction is found using the *difference-in-means* technique. More specifically, the direction is calculated as the difference in the means of the activations on interactions where the model answers a *forbidden question* and interactions where the model refuses to answer it. The first set corresponds to cases where a jailbreak prompt is successful and gets the model to answer the forbidden question. The second set corresponds to cases where the model refuses to answer the forbidden question because it is asked directly. Examples of both interactions are shown in Figure 1\.
 
-![][/assets/images/Foto.jpeg]  
+![Baseline Interactions](Foto.jpeg)
+![Baseline Interactions](/assets/images/Foto.jpeg)
 ***Figure 1\.** Examples of two interactions: one where the model refuses to answer a forbidden question (left) and other where it answers it (right). Note that the LLM’s response to the forbidden question was added only for illustrative purposes but in practice it is not used to find the direction that represents jailbreaks.*
 
 After finding the direction in activation space that represents the “*jailbreak feature”*, the model is intervened to prevent it from using that direction. This intervention is done utilizing the methods of *activation addition* and *directional ablation*. Activation addition subtracts the direction from the activations, while directional ablation, erases the direction from the representations. An interaction with the model after the activation addition intervention is shown in Figure 2\.
